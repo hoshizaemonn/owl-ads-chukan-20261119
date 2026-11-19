@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>OWL福祉 数字と愛知プレゼント 打合せ用</title>
+<style>
+:root{
+  --bg:#f6f8fb; --card:#ffffff; --ink:#1c2733; --sub:#5b6b7c; --line:#dfe6ee;
+  --blue:#1f6feb; --blue-bg:#e8f0fe; --orange:#d9730d; --orange-bg:#fff1e0;
+  --green:#1a7f4b; --green-bg:#e3f5ea; --red:#c0392b; --red-bg:#fdeceb; --gray-bar:#b8c4d1;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1620; --card:#17212d; --ink:#e8eef5; --sub:#9bacbd; --line:#2a3745;
+    --blue:#6aa6ff; --blue-bg:#16263f; --orange:#ffa94d; --orange-bg:#3a2a14; --green:#5fd39a; --green-bg:#12301f; --red:#ff8a7a; --red-bg:#3a1a17; --gray-bar:#4a5a6b;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1620; --card:#17212d; --ink:#e8eef5; --sub:#9bacbd; --line:#2a3745;
+  --blue:#6aa6ff; --blue-bg:#16263f; --orange:#ffa94d; --orange-bg:#3a2a14; --green:#5fd39a; --green-bg:#12301f; --red:#ff8a7a; --red-bg:#3a1a17; --gray-bar:#4a5a6b;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.7;font-size:16px;word-break:auto-phrase;line-break:strict}
+h1,h2,h3,.lead{text-wrap:balance}
+.wrap{max-width:980px;margin:0 auto;padding:20px 16px 56px}
+h1{font-size:clamp(22px,4.6vw,30px);line-height:1.4;margin:6px 0 6px}
+h2{font-size:clamp(18px,3.8vw,22px);margin:0 0 6px;line-height:1.45}
+h3{font-size:15px;margin:14px 0 6px}
+.lead{color:var(--sub);margin:0 0 18px;font-size:15px}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 10px;border-radius:99px;background:var(--blue-bg);color:var(--blue);margin-bottom:6px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 16px;margin:0 0 16px}
+.concl,.card{min-width:0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media (max-width:820px){.grid4{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.grid2,.grid4{grid-template-columns:1fr}}
+.concl{border-radius:12px;padding:12px 14px;border:1px solid var(--line);background:var(--bg)}
+.concl .no{display:inline-block;width:24px;height:24px;line-height:24px;text-align:center;border-radius:99px;background:var(--blue);color:#fff;font-weight:700;font-size:13px;margin-right:6px}
+.concl b{display:block;margin-bottom:4px}
+.concl small{color:var(--sub);display:block;font-size:13px;line-height:1.6}
+.concl.good{background:var(--green-bg);border-color:var(--green)}
+.concl.mid{background:var(--orange-bg);border-color:var(--orange)}
+.bar-row{display:grid;grid-template-columns:110px minmax(0,1fr);align-items:start;gap:8px;margin:10px 0;font-size:14px}
+@media (max-width:620px){.bar-row{grid-template-columns:minmax(0,1fr);gap:2px}}
+.bars{display:grid;gap:6px;min-width:0}
+.b{display:block;min-width:0}
+.b i{display:block;height:18px;border-radius:5px;min-width:3px}
+.lab{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;margin-top:2px}
+.b i.old{background:var(--gray-bar)} .b i.new{background:var(--blue)} .b i.a{background:var(--orange)} .b i.bb{background:var(--blue)} .b i.bud{background:var(--line)} .b i.use{background:var(--orange)}
+.b span{font-weight:700;font-variant-numeric:tabular-nums;font-size:13px}
+.b em{font-style:normal;color:var(--sub);font-size:12px;font-variant-numeric:tabular-nums}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--sub);margin:4px 0 8px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.note{color:var(--sub);font-size:13px;margin:8px 0 0}
+.verdict{display:inline-block;font-size:12px;font-weight:700;padding:1px 9px;border-radius:99px;margin-left:6px}
+.v-ok{background:var(--green-bg);color:var(--green)} .v-no{background:var(--orange-bg);color:var(--orange)} .v-same{background:var(--blue-bg);color:var(--blue)}
+.flow{display:grid;grid-template-columns:1fr 40px 1fr 40px 1fr;gap:6px;align-items:stretch}
+.flow>*{min-width:0}
+.flow .step{border-radius:12px;padding:12px;border:1px solid var(--line);background:var(--bg);font-size:14px}
+.flow .step b{display:block;font-size:15px;margin-bottom:4px}
+.flow .arrow{display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--sub)}
+.flow .step.a{background:var(--orange-bg);border-color:var(--orange)}
+.flow .step.b2{background:var(--blue-bg);border-color:var(--blue)}
+.flow .step.res{background:var(--green-bg);border-color:var(--green)}
+@media (max-width:720px){.flow{grid-template-columns:1fr}.flow .arrow{transform:rotate(90deg);height:26px}}
+
+th,td{border-bottom:1px solid var(--line);padding:9px 8px;text-align:left;vertical-align:top}
+th{font-size:13px;color:var(--sub)}
+td.n{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+.unk li{margin:5px 0}
+ul{margin:6px 0;padding-left:20px}
+.foot{color:var(--sub);font-size:12px;margin-top:18px}
+
+h2 .n{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:99px;background:var(--blue);color:#fff;font-size:14px;margin-right:8px;vertical-align:2px}
+.bt{position:relative;height:22px;border-radius:5px;background:var(--line);overflow:visible;margin:2px 0}
+.bt i{display:block;height:100%;border-radius:5px}
+.bt .mk{position:absolute;top:-4px;bottom:-4px;width:0;border-left:2px dashed var(--orange)}
+.bt .mk em{position:absolute;top:-17px;right:6px;font-style:normal;font-size:10.5px;color:var(--orange);white-space:nowrap;font-weight:700}
+.rowd{display:grid;grid-template-columns:54px minmax(0,1fr);gap:8px;align-items:center;margin:20px 0 6px;font-size:13.5px}
+.rowd .v{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.rowd .v b{font-variant-numeric:tabular-nums}
+.stack{display:flex;height:26px;border-radius:6px;overflow:hidden;margin:6px 0 4px}
+.stack i{display:block;height:100%}
+.stack i.h{background:var(--orange)} .stack i.o{background:var(--gray-bar)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+th{font-size:12px;color:var(--sub);font-weight:700}
+.sc{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.ask{counter-reset:a;list-style:none;margin:8px 0 0;padding:0}
+.ask li{counter-increment:a;position:relative;padding:10px 12px 10px 44px;border:1px solid var(--line);border-radius:12px;background:var(--bg);margin:0 0 8px;font-size:14.5px}
+.ask li::before{content:counter(a);position:absolute;left:12px;top:10px;width:22px;height:22px;line-height:22px;text-align:center;border-radius:99px;background:var(--orange);color:#fff;font-size:12.5px;font-weight:700}
+.gift{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:760px){.gift{grid-template-columns:1fr}}
+.gc{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--bg);font-size:14px}
+.gc b{display:block;font-size:15px;margin-bottom:2px}
+.gc small{display:block;color:var(--sub);font-size:12.5px;line-height:1.6;margin-top:4px}
+.st{display:inline-block;font-size:11.5px;font-weight:700;padding:1px 9px;border-radius:99px;margin-bottom:6px}
+.st.ok{background:var(--green-bg);color:var(--green)} .st.wip{background:var(--orange-bg);color:var(--orange)} .st.no{background:var(--red-bg);color:var(--red)}
+.key{display:flex;align-items:center;gap:14px;background:var(--orange-bg);border:1px solid var(--orange);border-radius:14px;padding:14px 16px;margin:0 0 14px}
+.key .w{font-size:30px;font-weight:800;color:var(--orange);line-height:1}
+.key small{display:block;color:var(--sub);font-size:12.5px}
+.steps5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+@media (max-width:760px){.steps5{grid-template-columns:1fr}}
+.sp{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--bg);font-size:13.5px;line-height:1.55}
+.sp b{display:block;font-size:14px;margin-bottom:2px}
+.pillbox{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 0}
+.pill{font-size:12.5px;border:1px solid var(--line);border-radius:99px;padding:2px 10px;background:var(--bg)}
+.pill.cv{border-color:var(--green);background:var(--green-bg);color:var(--green);font-weight:700}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<span class="tag">11/19 RUNBIRD打ち合わせ用</span>
+<h1>OWL福祉：広告の数字と、愛知のプレゼント</h1>
+<p class="lead">数字は11/18（昨日）まで。社内共有用（検索には載せない設定）。①広告データ ②愛知の動画とプレゼント の2枚組です。</p>
+
+<div class="card">
+  <h2>先に（結論）</h2>
+  <div class="grid2" style="margin-top:10px">
+    <div class="concl mid"><b><span class="no">1</span>Yahooの予算が余るのは「検索の量」が少ないから</b><small>主要な語は、表示の89〜100%をすでに取れています。入札や予算を上げても、表示は増えません</small></div>
+    <div class="concl mid"><b><span class="no">2</span>Yahooの費用は、成果の出ていない広い語に偏る</b><small>11/18は「障害者支援 事業 開業」が費用の73%。問い合わせは、すべて「経営」の語から</small></div>
+    <div class="concl good"><b><span class="no">3</span>Googleは、7語のほうが安くクリックが多い</b><small>クリック率は同じ（約13%）。1クリックは約400円と約1,030円</small></div>
+    <div class="concl"><b><span class="no">4</span>愛知のプレゼント：合言葉は「覚悟」。案を決めたい</b><small>A・B・C の3案。河合さんの確認が要る点を、黄色で残してあります</small></div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>今日、決めたいこと</h2>
+  <ol class="ask">
+    <li><b>愛知のプレゼントは A・B・C のどれか。</b>営業先リスト・持参資料など、OWLの正式な営業手順の有無も</li>
+    <li><b>Yahoo の2本目のLP</b>（<span style="white-space:nowrap">経営特化の新LP</span>・v3デザインのまま）を流してよいか</li>
+    <li><b>Yahoo「障害者支援 事業 開業」</b>：そのまま／入札を下げる</li>
+    <li><b>見出し「儲からない」</b>と、愛知の引用文の使用の了承。<b>GA4のタグ修正</b>の了承</li>
+  </ol>
+</div>
+
+<h2 style="margin:28px 0 8px"><span class="n">1</span>広告の数字（〜11/18）</h2>
+
+<div class="card">
+  <h2>問い合わせ（11/1〜11/18）</h2>
+  <p class="lead" style="margin-bottom:8px">計8件。質の高い◎が4件。11/17・11/18は0件でした。最後は 11/16 21:40（社会福祉法人・◎）。</p>
+  <div class="stack" aria-label="質の内訳"><i style="width:50%;background:var(--green)"></i><i style="width:12.5%;background:var(--blue)"></i><i style="width:37.5%;background:var(--gray-bar)"></i></div>
+  <div class="legend"><span><i style="background:var(--green)"></i>◎ 4件</span><span><i style="background:var(--blue)"></i>○ 1件</span><span><i style="background:var(--gray-bar)"></i>△ 3件</span></div>
+</div>
+
+<div class="card">
+  <h2>Yahoo：予算を使い切れず、昨日は逆に超えた</h2>
+  <p class="lead" style="margin-bottom:0">1日の費用（TO-CP05）。破線＝予算 12,000円。</p>
+  <div class="rowd"><span>11/15</span><div class="v"><div class="bt" style="flex:1 1 180px"><i style="width:47.7%;background:var(--blue)"></i><span class="mk" style="left:77%"><em>予算12,000円</em></span></div><b>7,426円</b></div></div>
+  <div class="rowd" style="margin-top:6px"><span>11/16</span><div class="v"><div class="bt" style="flex:1 1 180px"><i style="width:49.1%;background:var(--blue)"></i><span class="mk" style="left:77%"></span></div><b>7,652円</b><span class="verdict v-ok">問い合わせ1</span></div></div>
+  <div class="rowd" style="margin-top:6px"><span>11/17</span><div class="v"><div class="bt" style="flex:1 1 180px"><i style="width:21.2%;background:var(--blue)"></i><span class="mk" style="left:77%"></span></div><b>3,303円</b></div></div>
+  <div class="rowd" style="margin-top:6px"><span>11/18</span><div class="v"><div class="bt" style="flex:1 1 180px"><i style="width:100%;background:var(--orange)"></i><span class="mk" style="left:77%"></span></div><b>15,578円</b><span class="verdict v-no">約130%</span></div></div>
+  <p class="note" style="margin-top:12px">予算の消化は、日によってばらつきます。主要な語は、すでに表示の89〜100%を取れているので、入札や予算を上げても、表示は増えにくい状態です。</p>
+  <h3 style="font-size:15px;margin:22px 0 4px">11/18の費用の中身</h3>
+  <div class="stack"><i class="h" style="width:73.5%"></i><i class="o" style="width:26.5%"></i></div>
+  <div class="legend"><span><i style="background:var(--orange)"></i>「障害者支援 事業 開業」11,454円（73%・7クリック・問い合わせ0）</span><span><i style="background:var(--gray-bar)"></i>そのほか 4,124円</span></div>
+  <h3 style="font-size:15px;margin:18px 0 4px">なぜ予算が余るのか（直近7日・主な語）</h3>
+  <div class="sc"><table>
+    <tr><th>キーワード</th><th>表示シェア</th><th>予算が足りず逃した</th><th>入札・質で逃した</th><th>クリック</th><th>CV</th></tr>
+    <tr><td>障害者支援 事業 開業</td><td>89%</td><td>10%</td><td>4%</td><td>21</td><td>0</td></tr>
+    <tr><td>グループホーム 経営</td><td>97%</td><td>2%</td><td>2%</td><td>17</td><td>2</td></tr>
+    <tr><td>障害者グループホーム 経営</td><td>96%</td><td>4%</td><td>5%</td><td>13</td><td>1</td></tr>
+    <tr><td>グループホーム 開業</td><td>98%</td><td>2%</td><td>5%</td><td>1</td><td>0</td></tr>
+  </table></div>
+  <p class="note">表示シェア＝出せる表示のうち、実際に出せた割合。ほぼ取れているので、足りないのは入札・予算ではなく、検索の量です。昨日入れたスクリプトで取得（取得時点の数字）。</p>
+  <h3 style="font-size:15px;margin:16px 0 4px">問い合わせにつながった検索語（11/1〜）</h3>
+  <div class="pillbox"><span class="pill cv">グループ ホーム 経営</span><span class="pill cv">障害 者 グループ ホーム 経営</span><span class="pill cv">グループ ホーム 経営 儲から ない</span></div>
+</div>
+
+<div class="card">
+  <h2>Google：2語（A）と7語（B）、どちらも短縮版LP</h2>
+  <p class="lead" style="margin-bottom:6px">11/13〜11/18の6日間。1日の予算は同じ（7,050円）。</p>
+  <div class="sc"><table>
+    <tr><th></th><th>表示</th><th>クリック</th><th>費用</th><th>1クリック</th><th>クリック率</th><th>問い合わせ</th></tr>
+    <tr><td>A（2語）</td><td>301</td><td>41</td><td>42,329円</td><td>約1,030円</td><td>13.6%</td><td>0</td></tr>
+    <tr><td>B（7語）</td><td>698</td><td>90</td><td>36,212円</td><td>約400円</td><td>12.9%</td><td>1</td></tr>
+  </table></div>
+  <p class="note">増やして変わったのは「入ってくる量と費用」で、「押されやすさ」ではありません。問い合わせの優劣は、件数が少なくまだ決められません（判定は12/11）。</p>
+</div>
+
+<div class="card">
+  <h2>LP：短縮版で、序盤の離脱は減った傾向（Clarity）</h2>
+  <p class="lead" style="margin-bottom:6px">Google・スマホ。入れ替え版（11/7〜12・PV27）と短縮版（11/13〜17・PV73）。</p>
+  <div class="legend"><span><i style="background:var(--gray-bar)"></i>入れ替え版</span><span><i style="background:var(--blue)"></i>短縮版</span></div>
+  <div class="bar-row"><div>25%まで届いた</div><div class="bars"><div class="b"><i class="old" style="width:48%"></i><div class="lab"><span>48%</span><em>13/27</em></div></div><div class="b"><i class="new" style="width:74%"></i><div class="lab"><span>74%</span><em>54/73</em><span class="verdict v-ok">差あり（p=0.018）</span></div></div></div></div>
+  <div class="bar-row"><div>フォーム付近まで</div><div class="bars"><div class="b"><i class="old" style="width:11%"></i><div class="lab"><span>11%</span><em>3/27</em></div></div><div class="b"><i class="new" style="width:18%"></i><div class="lab"><span>18%</span><em>13/73</em><span class="verdict v-same">偶然の範囲（p=0.55）</span></div></div></div></div>
+  <div class="bar-row"><div>FAQ以外のタップ（1PVあたり）</div><div class="bars"><div class="b"><i class="old" style="width:9%"></i><div class="lab"><span>0.26</span></div></div><div class="b"><i class="new" style="width:24%"></i><div class="lab"><span>0.73</span><span class="verdict v-ok">約2.8倍</span></div></div></div></div>
+  <p class="note">短いページは同じ％でも少ないスクロールで届くため、序盤の差には「短くなった分」が含まれます。公平に比べられるのは、フォーム付近です。</p>
+</div>
+
+<div class="card">
+  <h2>未確定のこと</h2>
+  <ul class="unk">
+    <li><b>GA4にライト版（短縮版を含む）が入っていません。</b>タグ漏れ。直す指示書は用意済みで、了承待ちです。</li>
+    <li>鈴木さんに送った報告（11/17）への返事は、こちらでは確認できていません。</li>
+    <li>問い合わせの件数が少なく、LP・キーワードの優劣は、まだ決められません。</li>
+  </ul>
+</div>
+
+<h2 style="margin:28px 0 8px"><span class="n">2</span>愛知の動画とプレゼント</h2>
+
+<div class="card">
+  <h2>愛知インタビュー動画：公開までの段取り</h2>
+  <div class="steps5">
+    <div class="sp"><span class="st ok">済</span><b>全編 v17</b>31分3秒（10/15）。外付けHDD（LaCie）</div>
+    <div class="sp"><span class="st ok">済</span><b>顔・金額</b>お顔はアウル君で伏せ。金額は出ていない</div>
+    <div class="sp"><span class="st no">未</span><b>LINE案内の差し込み</b>合言葉「覚悟」で。三重と同じ流れ</div>
+    <div class="sp"><span class="st no">未</span><b>公開用URL</b>YouTubeなど。まだない</div>
+    <div class="sp"><span class="st wip">仮</span><b>LPで再生</b>新LPのモックは、手元のv17で再生できる</div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>愛知のプレゼント（LINEの特典）</h2>
+  <div class="key"><div class="w">覚悟</div><div><b>合言葉（「かくご」も同じ反応）</b><small>愛知の動画の中で案内。LINEに送ると、特典が返ってくる</small></div></div>
+  <div class="gift">
+    <div class="gc"><span class="st wip">たたき台</span><b>A 入居者さんと出会うまでのガイド</b>4ページ。愛知・三重の「2人目まで半年」の動き方<small>要確認：回る先（役所・病院）、営業先リストのサポート、ごあいさつ・空き状況のお知らせ</small></div>
+    <div class="gc"><span class="st wip">たたき台</span><b>B 開業前のふたり会議シート</b>3ページ。家族で確かめる質問8つ<small>要確認：Q8「進む・やめる条件」を書かせてよいか</small></div>
+    <div class="gc"><span class="st ok">作成済み</span><b>C ガイドブック</b>三重と同じ30ページ（価格なし版）<small>追加の作業なし。まず出して、A・Bは後から足せる</small></div>
+  </div>
+  <p class="note" style="margin-top:10px">A・Bは「たたき台・配布不可」の印つき。内容はインタビューと面談台本の範囲で、金額・「満室2.5か月」は使っていません。</p>
+</div>
+
+<div class="card">
+  <h2>河合さんに聞くこと／まだ確認できていないこと</h2>
+  <ol class="ask">
+    <li>A・B・C のどれにするか</li>
+    <li>OWLの正式な営業手順（営業先リスト、持参資料）はあるか</li>
+    <li>公式LINEで、どう送るか（キーワード応答の設定）</li>
+  </ol>
+  <ul class="unk" style="margin-top:12px">
+    <li>公式LINEのキーワード応答の設定と、スマホでのテスト結果は、こちらでは見えていません。</li>
+    <li>LPフォームのテスト送信は、河合さんへの連絡が先で、まだ実施されていません（通知が届くため）。</li>
+    <li>河合さんへの提案文は、まだ送っていません。</li>
+  </ul>
+</div>
+
+<p class="foot">出典：広告日次スプレッドシート（Google 11/13〜11/18、Yahoo 〜11/18）／Yahoo広告スクリプト（キーワード・検索クエリー）／問い合わせログ／Clarity。「偶然の確率」は、同じ差が偶然だけで出る確率（0.05より小さければ偶然とは考えにくい）。実数を含むため、検索には載せない設定（noindex）で公開しています。</p>
+</div>
+</body>
+</html>
